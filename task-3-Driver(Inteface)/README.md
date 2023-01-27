@@ -16,3 +16,18 @@ Check 'setup.sql' file to setup test db
 - replace placeholder values in 'sample.env' with original values
 - rename 'sample.env' to '.env'
 - run 'app.py'
+
+# Requirements(GO)
+- GO
+- postgres
+
+# Setup and run app(GO)
+> To be run on a windows os
+
+- Install Go
+- run `go env -w GO111MODULE=auto`
+- run `go mod init app.go`
+- run `go mod tidy`
+- run `go mod init goenv`
+- run `go get github.com/joho/godotenv`
+- run `go run .\app.go`
