@@ -1,4 +1,6 @@
 # Coding Test – Backend [Task - 2]
+Recurrence relations are equations that defines a sequence of values, future terms are derived as function of previous terms.
+
 
 # Ways of implementing piecewise recurrence relation
 - [Substitution Method](#substitution-method)
